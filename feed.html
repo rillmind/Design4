@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +13,28 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Feed</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <a class="navbar-brand" onclick="window.location='LoginCadastro.html';">Pet Care</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg">
+        <a type="button" class="navbar-brand" onclick="window.location='LoginCadastro.html';">Pet Care</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Doações</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Meu Perfil</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Doações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Meu Perfil</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-
+    </nav>
     <div class="container mt-4 mb-5">
         <div class="d-flex justify-content-center row">
             <div class="col-md-8">
@@ -46,35 +48,49 @@
                     <div class="bg-white border mt-2">
                         <div>
                             <div class="d-flex flex-row justify-content-between align-items-center p-2 border-bottom">
-                                <div class="d-flex flex-row align-items-center feed-text px-2"><img class="rounded-circle" src="https://avatars.githubusercontent.com/u/142103420?v=4" width="45">
-                                    <div class="d-flex flex-column flex-wrap ml-2"><span class="font-weight-bold">João Venicius</span><span class="text-black-50 time">40 minutos atrás</span></div>
+                                <div class="d-flex flex-row align-items-center feed-text px-2" type="button"
+                                    onclick="window.location='PerfilUsuario2.html';"><img class="rounded-circle"
+                                        src="https://avatars.githubusercontent.com/u/142103420?v=4" width="45">
+                                    <div class="d-flex flex-column flex-wrap ml-2"><span class="font-weight-bold">João
+                                            Venicius</span><span class="text-black-50 time">40 minutos atrás</span>
+                                    </div>
                                 </div>
                                 <div class="feed-icon px-2"><i class="fa fa-ellipsis-v text-black-50"></i></div>
                             </div>
                         </div>
                         <div class="px-4 pt-3"><span>Meu gato Renatinho</span></div>
                         <div class="feed-image p-4">
-                            <img src="https://img.freepik.com/fotos-premium/captura-de-retrato-de-um-gato-cinza-maduro-com-uma-cicatriz-no-focinho-com-olhos-vesgos_163155-808.jpg" alt="" class="img-fluid rounded shadow-sm">
+                            <img src="https://img.freepik.com/fotos-premium/captura-de-retrato-de-um-gato-cinza-maduro-com-uma-cicatriz-no-focinho-com-olhos-vesgos_163155-808.jpg"
+                                alt="" class="img-fluid rounded shadow-sm">
                         </div>
-                        <div class="d-flex justify-content-end socials p-2 py-3"><i class="fa fa-thumbs-up mr-4"></i><i class="fa fa-comments-o mr-4"></i><i class="fa fa-share mr-4"></i></div>
+                        <div class="d-flex justify-content-end socials p-2 py-3"><i class="fa fa-thumbs-up mr-4"></i><i
+                                class="fa fa-comments-o mr-4"></i><i class="fa fa-share mr-4"></i></div>
                     </div>
                     <div class="bg-white border mt-2">
                         <div>
                             <div class="d-flex flex-row justify-content-between align-items-center p-2 border-bottom">
-                                <div class="d-flex flex-row align-items-center feed-text px-2"><img type="button" class="rounded-circle" onclick="window.location='PerfilUsuario.html';" src="https://avatars.githubusercontent.com/u/120270846?v=4" width="45">
-                                    <div class="d-flex flex-column flex-wrap ml-2"><span type="button" class="font-weight-bold" onclick="window.location='PerfilUsuario.html';">Raul Holanda</span><span class="text-black-50 time">40 minutos atrás</span></div>
+                                <div class="d-flex flex-row align-items-center feed-text px-2"><img type="button"
+                                        class="rounded-circle" onclick="window.location='PerfilUsuario.html';"
+                                        src="https://avatars.githubusercontent.com/u/120270846?v=4" width="45">
+                                    <div class="d-flex flex-column flex-wrap ml-2"><span type="button"
+                                            class="font-weight-bold"
+                                            onclick="window.location='PerfilUsuario.html';">Raul Holanda</span><span
+                                            class="text-black-50 time">40 minutos atrás</span></div>
                                 </div>
                                 <div class="feed-icon px-2"><i class="fa fa-ellipsis-v text-black-50"></i></div>
                             </div>
                         </div>
                         <div class="feed-image p-4">
-                            <img src="https://conexaoplaneta.com.br/wp-content/uploads/2019/11/filhote-vira-lata-achado-australia-era-dingo-especie-ameacada-extincao-conexao-planeta.jpg" alt="" class="img-fluid rounded shadow-sm">
+                            <img src="https://conexaoplaneta.com.br/wp-content/uploads/2019/11/filhote-vira-lata-achado-australia-era-dingo-especie-ameacada-extincao-conexao-planeta.jpg"
+                                alt="" class="img-fluid rounded shadow-sm">
                         </div>
-                        <div class="d-flex justify-content-end socials p-2 py-3"><i class="fa fa-thumbs-up mr-4"></i><i class="fa fa-comments-o mr-4"></i><i class="fa fa-share mr-4"></i></div>
+                        <div class="d-flex justify-content-end socials p-2 py-3"><i class="fa fa-thumbs-up mr-4"></i><i
+                                class="fa fa-comments-o mr-4"></i><i class="fa fa-share mr-4"></i></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
