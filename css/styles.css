@@ -342,6 +342,11 @@ h6 {
     width: 80px;
 }
 
+.my-img-profile {
+    width: 200px;
+    height: 200px;
+}
+
 .my-span {
     color: #000000;
 }
