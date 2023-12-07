@@ -375,3 +375,17 @@ h6 {
 .mywidth {
     align-items: center;
 }
+
+.form-label {
+    margin-bottom: 1px;
+}
+
+.my-btn {
+    display: flex;
+    align-items: center;
+}
+
+.myp1 {
+    margin: 0;
+    padding-top: 2%;
+}
