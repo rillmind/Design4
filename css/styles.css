@@ -180,14 +180,14 @@ h6 {
 }
 
 .form-style {
-    padding: 13px 20px;
-    padding-left: 55px;
-    height: 48px;
+    padding: 10px 20px;
+    padding-left: 10px;
+    height: 35px;
     width: 100%;
     font-weight: 500;
     border-radius: 4px;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 0px;
     letter-spacing: 0.5px;
     outline: none;
     color: #c4c3ca;
@@ -200,6 +200,7 @@ h6 {
 
 .form-style2 {
     padding: 13px 20px;
+    padding-left: 55px;
     height: 48px;
     width: 100%;
     font-weight: 500;
@@ -349,4 +350,28 @@ h6 {
 
 .my-span {
     color: #000000;
+}
+
+.my-div-log {
+    align-items: center;
+    margin: 20% 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1f222d;
+}
+
+.my-div-cad {
+    align-items: center;
+    margin: 10% 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1f222d;
+}
+
+.mywidth {
+    align-items: center;
 }

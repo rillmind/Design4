@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="container mywidth">
+        <div class="row justify-content-center mywidth">
+            <div class="col-md-4 my-div-cad">
+                <h2 class="mb-4">Cadastro</h2>
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-style" id="nome" name="nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username:</label>
+                        <input type="text" class="form-style" id="username" name="username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="text" class="form-style" id="email" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="senha" class="form-label">Senha:</label>
+                        <input type="password" class="form-style" id="senha" name="senha">
+                    </div>
+                    <button onclick="window.location='feed.html';" type="button"
+                        class="btn btn-primary">Cadastrar</button>
+                    <p class="mb-0 mt-4 text-center myp1">
+                        <label onclick="window.location='login.html';" type="button" for="reg-log">Já tem conta?</label>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
